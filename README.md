@@ -5,26 +5,36 @@
 ## English
 
 ### Introduction
-Network Diagnostic Tool is a comprehensive Windows application designed to diagnose and repair network issues. It provides a suite of tools for network testing, diagnosis, and automatic repair functions.
+Network Diagnostic Tool is a user-friendly Windows application specifically designed for beginners and non-technical users to diagnose and repair common network issues. With its intuitive interface and automated repair functions, users can solve network problems without professional IT knowledge.
+
+### When Do You Need This Tool?
+- Can't connect to the Internet
+- Network is unusually slow
+- Websites won't load
+- Games have high ping/latency
+- WiFi keeps disconnecting
+- Network shows "Limited Access"
+- DNS errors when browsing
+- Can't connect to specific services
 
 ### Features
-- **Network Diagnosis**
-  - Network connectivity testing
-  - DNS resolution check
-  - Network latency measurement
-  - Common ports scanning
+- **Easy Network Diagnosis**
+  - One-click network connectivity testing
+  - Automatic DNS resolution check
+  - Simple network speed measurement
+  - Common ports scanning with clear explanations
   
-- **Network Repair**
-  - Automatic network adapter reset
-  - DNS cache clearing
-  - TCP/IP stack repair
-  - Network settings optimization
+- **Automated Network Repair**
+  - One-click network adapter reset
+  - Automatic DNS cache clearing
+  - Simple TCP/IP stack repair
+  - Network settings optimization with explanations
   
-- **Network Tools**
-  - Ping test with detailed statistics
-  - Route tracing with visual display
-  - Network configuration backup and restore
-  - Port scanning with service detection
+- **User-Friendly Tools**
+  - Simple Ping test with easy-to-understand results
+  - Visual route tracing with geographic information
+  - Network configuration backup for safety
+  - Port scanning with common service names
 
 ### System Requirements
 - Windows 10 or later
@@ -33,38 +43,50 @@ Network Diagnostic Tool is a comprehensive Windows application designed to diagn
 
 ### Installation
 1. Download the latest release from the releases page
-2. Run the installer as administrator
-3. Follow the installation wizard
+2. Right-click the installer and select "Run as administrator"
+3. Follow the simple installation wizard
+4. Launch from desktop shortcut
 
-### Usage
-1. Launch the application as administrator
-2. Select the desired diagnostic or repair function
-3. Follow the on-screen instructions
-4. View detailed results and recommendations
+### Usage for Beginners
+1. Double-click the application icon (Right-click and "Run as administrator" if prompted)
+2. Click "Quick Diagnosis" for automatic problem detection
+3. Follow the simple on-screen instructions
+4. View results with clear explanations and recommended actions
+5. Use "One-Click Repair" for automatic fixes
 
 ## 中文
 
 ### 简介
-网络故障诊断与修复工具是一款功能全面的Windows应用程序，专门用于诊断和修复网络问题。它提供了一套完整的网络测试、诊断和自动修复功能。
+网络故障诊断与修复工具是一款专门为电脑初学者和非专业用户设计的Windows应用程序。通过直观的界面和自动化的修复功能，用户无需专业的IT知识就能解决常见的网络问题。
+
+### 什么时候需要使用这个工具？
+- 无法连接到互联网
+- 网络速度异常缓慢
+- 网页无法打开
+- 游戏延迟高/卡顿
+- WiFi经常断开连接
+- 网络显示"受限访问"
+- 浏览网页时出现DNS错误
+- 无法连接特定服务
 
 ### 功能特点
-- **网络诊断**
-  - 网络连接测试
-  - DNS解析检查
-  - 网络延迟测量
-  - 常用端口扫描
+- **简单的网络诊断**
+  - 一键式网络连接测试
+  - 自动DNS解析检查
+  - 简单的网络速度测量
+  - 常用端口扫描（附带简明解释）
   
-- **网络修复**
-  - 自动重置网络适配器
-  - 清理DNS缓存
-  - 修复TCP/IP协议栈
-  - 优化网络设置
+- **自动化网络修复**
+  - 一键重置网络适配器
+  - 自动清理DNS缓存
+  - 简单的TCP/IP协议栈修复
+  - 网络设置优化（附带说明）
   
-- **网络工具**
-  - Ping测试并显示详细统计信息
-  - 路由跟踪并可视化显示
-  - 网络配置备份与还原
-  - 端口扫描与服务检测
+- **用户友好的工具**
+  - 简单的Ping测试（结果易于理解）
+  - 可视化的路由跟踪（含地理信息）
+  - 网络配置备份（以防万一）
+  - 端口扫描（显示常见服务名称）
 
 ### 系统要求
 - Windows 10 或更高版本
@@ -73,14 +95,16 @@ Network Diagnostic Tool is a comprehensive Windows application designed to diagn
 
 ### 安装方法
 1. 从发布页面下载最新版本
-2. 以管理员身份运行安装程序
-3. 按照安装向导进行操作
+2. 右键安装程序，选择"以管理员身份运行"
+3. 按照简单的安装向导操作
+4. 从桌面快捷方式启动
 
-### 使用方法
-1. 以管理员身份启动应用程序
-2. 选择所需的诊断或修复功能
-3. 按照屏幕提示进行操作
-4. 查看详细结果和建议
+### 新手使用指南
+1. 双击应用程序图标（如果提示，请右键选择"以管理员身份运行"）
+2. 点击"快速诊断"进行自动问题检测
+3. 按照简单的屏幕提示操作
+4. 查看结果说明和推荐的解决方案
+5. 使用"一键修复"功能进行自动修复
 
 ## License 许可证
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
