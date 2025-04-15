@@ -48,6 +48,7 @@ namespace NetworkDiagnosticTool
             mainTabControl.Controls.Add(CreateTabPage<NetworkRepairForm>("网络修复"));
             mainTabControl.Controls.Add(CreateTabPage<NetworkTestForm>("网络测试"));
             mainTabControl.Controls.Add(CreateTabPage<DnsDiagnosisForm>("DNS诊断"));
+            mainTabControl.Controls.Add(CreateTabPage<PingTestForm>("Ping测试"));
             mainTabControl.Controls.Add(CreateTabPage<PortScanForm>("端口扫描"));
             mainTabControl.Controls.Add(CreateTabPage<RouteTracingForm>("路由追踪"));
             mainTabControl.Controls.Add(CreateTabPage<NetworkConfigBackupForm>("配置备份"));
