@@ -1,112 +1,92 @@
-# Network Diagnostic Tool 网络故障诊断与修复工具
+# NetworkDiagnosticTool
 
-[English](#english) | [中文](#中文)
+网络故障检修工具（Beta版）
 
-## English
+NetworkDiagnosticTool是一个win系统的网络故障检修工具，终极目标使检查和修复网络故障变成一件轻松的事情。我们不需要特别复制强大的功能，发现问题解决问题，然后连上网，这就够了！
 
-### Introduction
-Network Diagnostic Tool is a user-friendly Windows application specifically designed for beginners and non-technical users to diagnose and repair common network issues. With its intuitive interface and automated repair functions, users can solve network problems without professional IT knowledge.
+> ⚠️ **重要警告**：本工具代码由AI生成并发布，可能存在未检测到的高危错误，不建议在生产环境中直接使用。使用前请务必备份重要数据！
 
-### When Do You Need This Tool?
-- Can't connect to the Internet
-- Network is unusually slow
-- Websites won't load
-- Games have high ping/latency
-- WiFi keeps disconnecting
-- Network shows "Limited Access"
-- DNS errors when browsing
-- Can't connect to specific services
+## 功能特性
 
-### Features
-- **Easy Network Diagnosis**
-  - One-click network connectivity testing
-  - Automatic DNS resolution check
-  - Simple network speed measurement
-  - Common ports scanning with clear explanations
-  
-- **Automated Network Repair**
-  - One-click network adapter reset
-  - Automatic DNS cache clearing
-  - Simple TCP/IP stack repair
-  - Network settings optimization with explanations
-  
-- **User-Friendly Tools**
-  - Simple Ping test with easy-to-understand results
-  - Visual route tracing with geographic information
-  - Network configuration backup for safety
-  - Port scanning with common service names
+- 🚀 一键式网络诊断与修复
+- 🔍 网络适配器状态检测
+- 🌐 DNS服务诊断与优化
+  - DNS服务器响应测试
+  - DNS缓存清理
+  - 域名解析测试
+- 📡 网络连通性测试
+  - Ping测试（支持自定义包大小和间隔）
+  - 端口扫描
+  - 路由追踪
+- 🛠️ 网络配置管理
+  - 网络设置自动优化
+  - TCP/IP参数调优
+  - 网络配置备份与还原
+- 📊 实时网络状态监控
+  - 网络延迟监测
+  - 丢包率分析
+  - 带宽利用率检测
+- 📝 诊断日志管理
+  - 详细的故障诊断日志
+  - 修复操作记录
+  - 历史记录查看
 
-### System Requirements
-- Windows 10 or later
-- .NET Framework 4.7.2 or later
-- Administrator privileges (for repair functions)
+## 系统要求
 
-### Installation
-1. Download the latest release from the releases page
-2. Right-click the installer and select "Run as administrator"
-3. Follow the simple installation wizard
-4. Launch from desktop shortcut
+- Windows 10/11 操作系统
+- .NET 8.0或更高版本
+- 管理员权限（部分功能需要）
+- 最小屏幕分辨率：1280 x 720
 
-### Usage for Beginners
-1. Double-click the application icon (Right-click and "Run as administrator" if prompted)
-2. Click "Quick Diagnosis" for automatic problem detection
-3. Follow the simple on-screen instructions
-4. View results with clear explanations and recommended actions
-5. Use "One-Click Repair" for automatic fixes
+## 快速开始
 
-## 中文
+1. 下载最新版本的NetworkDiagnosticTool
+2. 以管理员身份运行程序
+3. 在主界面选择需要的功能：
+   - 网络诊断：自动检测网络问题
+   - 网络修复：修复已发现的问题
+   - 网络测试：进行各项网络测试
+   - DNS诊断：检查DNS相关问题
+   - 其他功能...
 
-### 简介
-网络故障诊断与修复工具是一款专门为电脑初学者和非专业用户设计的Windows应用程序。通过直观的界面和自动化的修复功能，用户无需专业的IT知识就能解决常见的网络问题。
+## 使用提示
 
-### 什么时候需要使用这个工具？
-- 无法连接到互联网
-- 网络速度异常缓慢
-- 网页无法打开
-- 游戏延迟高/卡顿
-- WiFi经常断开连接
-- 网络显示"受限访问"
-- 浏览网页时出现DNS错误
-- 无法连接特定服务
+- 🔒 首次运行时请确保以管理员身份启动
+- 💾 进行修复操作前建议备份当前网络配置
+- 📋 保存诊断日志以便后续分析
+- ⚡ 如遇到性能问题，可在设置中调整刷新间隔
 
-### 功能特点
-- **简单的网络诊断**
-  - 一键式网络连接测试
-  - 自动DNS解析检查
-  - 简单的网络速度测量
-  - 常用端口扫描（附带简明解释）
-  
-- **自动化网络修复**
-  - 一键重置网络适配器
-  - 自动清理DNS缓存
-  - 简单的TCP/IP协议栈修复
-  - 网络设置优化（附带说明）
-  
-- **用户友好的工具**
-  - 简单的Ping测试（结果易于理解）
-  - 可视化的路由跟踪（含地理信息）
-  - 网络配置备份（以防万一）
-  - 端口扫描（显示常见服务名称）
+## 常见问题
 
-### 系统要求
-- Windows 10 或更高版本
-- .NET Framework 4.7.2 或更高版本
-- 管理员权限（修复功能需要）
+1. **Q: 为什么某些功能需要管理员权限？**
+   A: 修改系统网络设置和执行某些网络命令需要管理员权限。
 
-### 安装方法
-1. 从发布页面下载最新版本
-2. 右键安装程序，选择"以管理员身份运行"
-3. 按照简单的安装向导操作
-4. 从桌面快捷方式启动
+2. **Q: 如何恢复之前的网络设置？**
+   A: 使用"网络配置备份"功能可以还原之前保存的配置。
 
-### 新手使用指南
-1. 双击应用程序图标（如果提示，请右键选择"以管理员身份运行"）
-2. 点击"快速诊断"进行自动问题检测
-3. 按照简单的屏幕提示操作
-4. 查看结果说明和推荐的解决方案
-5. 使用"一键修复"功能进行自动修复
+3. **Q: 日志文件存储在哪里？**
+   A: 日志文件默认保存在程序安装目录的Logs文件夹中。
 
-## License 许可证
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 安全说明
 
-本项目采用MIT许可证 - 查看 [LICENSE](LICENSE) 文件了解详细信息。 
+- 本工具不会收集任何个人信息
+- 所有的网络测试仅限于本地网络和授权的目标
+- 配置修改会预先备份，以便需要时还原
+- 建议在测试环境中先行验证各项功能
+
+## 开源协议
+
+本项目采用MIT协议开源，详见[LICENSE](LICENSE)文件。
+
+## 贡献指南
+
+欢迎提交Issue和Pull Request来帮助改进这个工具。提交时请：
+
+- 清晰描述问题或改进建议
+- 提供复现步骤（如果是bug）
+- 遵循现有的代码风格
+- 编写必要的测试用例
+
+## 致谢
+
+感谢所有为这个项目提供帮助和建议的贡献者。 
